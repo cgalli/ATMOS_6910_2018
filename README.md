@@ -1,2 +1,5 @@
-# ATMOS_6910_2018
+# ATMOS 6910, Fall 2018
 Environmental Programming, Atmospheric Science
+University of Utah
+
+
