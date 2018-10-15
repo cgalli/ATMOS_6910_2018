@@ -25,6 +25,6 @@ By the end of this course, you will be able to:
 
 [Check out CHPC's Intro to Python Series](./chpc_python_fall_2018)
 
-##Schedule and class links
+## Schedule and class links
 
 October 15, [Lecture 1: Introduction](./lecture01_introduction 2.pdf)
