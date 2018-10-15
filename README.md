@@ -23,5 +23,5 @@ By the end of this course, you will be able to:
 - Acquire and use data in multiple file formats. 
 - Create custom ways to display data.  
 
-
+[Check out CHPC's Intro to Python Series](./chpc_python_fall_2018)
 
