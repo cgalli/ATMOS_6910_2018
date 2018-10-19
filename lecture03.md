@@ -90,7 +90,7 @@ len(b)
 
 ```
 
-Both arrays of "a" and "b" are vectors. An array of 2 dimensions is refered to as a matrix, though the term is often reserved for specific use in mathematics and linear algebra. A 3 dimensional array is often called a cuboid of data-cube. The term N-dimensional is used for most cases thereafter. In atmospheric science, we often work with 4D data, specifically model output from numerical predictions: x and y coordinate systems (catesian, or similar), height levels (pressure levels), and time steps (forecast hours or lead-times). 
+Both arrays of "a" and "b" are vectors. An array of 2 dimensions is refered to as a matrix, though the term is often reserved for specific use in mathematics and linear algebra. A 3 dimensional array is often called a cuboid of data-cube. The term N-dimensional is used for most cases thereafter. In atmospheric science, we often work with 4D data, specifically model output from numerical predictions: x and y coordinate systems (cartesian, or similar), height levels (pressure levels), and time steps (forecast hours or lead-times). 
 
 What happens when you add a + b ?
 
@@ -177,7 +177,7 @@ y8 | 80 | 81 | 82 | 83 | 84 | 85 | 86 | 87 | 88 | 89
 y9 | 90 | 91 | 92 | 93 | 94 | 95 | 96 | 97 | 98 | 99
 
 
-To converting arrays to lists is sometimes useful depending on the function or task. All numpy arrays can be created as a list object, even ND arrays!
+Converting arrays to lists is sometimes useful depending on the function or task. All Numpy arrays can be turned into list objects, even ND arrays!
 ```
 my list = my_3d_array.tolist() 
 ```
