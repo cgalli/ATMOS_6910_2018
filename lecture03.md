@@ -28,7 +28,7 @@ In native python, everything is an object.
 - dictionaries
 - nested objects
 
-With Pandas or Numpy, addition of special object types extend python as Arrays. Arrays are defined shapes and sizes of like data types. This allows for optimized memory consumption, increased computation of elements within the array.
+With Pandas or Numpy, addition of special object types extend python with an Array construct. Arrays are defined shapes and sizes of homogeneous data types. This allows for optimized memory consumption and increased computation of elements within the array.
 
 Consider an array created as
 ```
