@@ -33,5 +33,5 @@ October 17, [Lecture 2: Data types](./lecture02_variables_datatypes.pdf)
 - IDL example file [lecture02_variables_datatypes.pro](./lecture02_variables_datatypes.pro)
 - [Homework assignment 1](./homework1.md)
 
-October 19, Lecture 3: Basic programs and arrays 
+October 19, [Lecture 3: Basic programs and arrays](./lecture03.md)
 
