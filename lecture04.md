@@ -144,3 +144,23 @@ t = np.array(air_temps, dtype=np.float)
 idx = np.argmin(t)
 print('minimum temperature is %s F at %s' % (t[idx], dates[idx] ) )
 ```
+
+## Exercise: read in values from wbb.csv, convert temperature in F, to Kelvin and write it out as wbb_kelvin.csv
+
+```
+import csv
+
+file_out = open('wbb_kelvin.csv', 'w')
+
+with open('wbb.csv', 'rb') as csvfile:
+    reader = csv.reader(csvfile, delimiter=',')
+    for row in reader:
+        if row[0] == 'WBB':
+            air_temp_k = (float(row[2]) − 32.) * 5./9. + 273.15
+            file_out.write('%s,%s,%s\n' % (row[0],row[1],air_temp_k))
+         else:
+            file_out.write(','.join(row))
+
+file_out.close()
+
+```
