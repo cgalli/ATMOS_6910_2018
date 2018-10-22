@@ -42,7 +42,21 @@ for line in lines[4::]:
 
 Here, we find the first observed temperature after freezing level is reached. In a more simplified approach, I could ask for some recent observations from the weather station WBB, available from an [API here](http://api.mesowest.net/v2/stations/timeseries?&stid=wbb&token=demotoken&recent=1440&units=english&vars=air_temp&output=csv).
 
-If this were saved to disk and called wbb.csv, I might read it and look for maximun and minimum temperatures like this:
+```
+# STATION: WBB
+# STATION NAME: U of U William Browning Building
+# LATITUDE: 40.76623
+# LONGITUDE: -111.84755
+# ELEVATION [ft]: 4806
+# STATE: UT
+Station_ID,Date_Time,air_temp_set_1
+,,Fahrenheit
+WBB,2018-10-21T03:19:00Z,55.22
+WBB,2018-10-21T03:20:00Z,55.26
+WBB,2018-10-21T03:21:00Z,55.18
+WBB,2018-10-21T03:22:00Z,55.11
+```
+If this were saved to disk and called wbb.csv, we can read this file and look for maximun and minimum temperatures in the time series:
 
 ```
 with open('wbb.csv', 'rb') as csvfile:
