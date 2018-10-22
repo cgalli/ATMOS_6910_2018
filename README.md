@@ -35,3 +35,7 @@ October 17, [Lecture 2: Data types](./lecture02_variables_datatypes.pdf)
 
 October 19, [Lecture 3: Basic programs and arrays](./lecture03.md)
 
+October 22, [Lecture 4: I/O part I](./lecture04.md)
+- [Supplemental slides](./lecture04.pdf)
+
+
