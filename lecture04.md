@@ -102,7 +102,22 @@ JSON stands for Javascript Object Notation, and is used extensively over the web
       }
    }
    ]
-}
-          
+} 
 ```
 
+JSON can be turned into python dictionaries with the use of the json module:
+```
+import json
+
+f = open('wbb.json', 'r')
+wbb_json = f.read()
+f.close()
+
+wbb = json.loads(wbb_json)
+```
+From there it's easy traverse the dictionary like this:
+
+```
+dates = wbb['STATION'][0]['OBSERVATIONS']['date_time']
+air_temps = wbb['STATION'][0]['OBSERVATIONS']['air_temp_set_1']
+```
