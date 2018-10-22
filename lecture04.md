@@ -40,7 +40,7 @@ for line in lines[4::]:
         break
 ```
 
-Here, we find the first observed temperature after freezing level is reached. In a more simplified approach, I could ask for some recent observations from the weather station WBB, available from an [API here](http://api.mesowest.net/v2/stations/timeseries?&stid=wbb&token=demotoken&recent=1440&units=english&vars=air_temp&output=csv).
+Here, we find the first observed temperature after freezing level is reached. In a more simplified approach, we could ask for some recent observations from the weather station WBB, available from an [API here](http://api.mesowest.net/v2/stations/timeseries?&stid=wbb&token=demotoken&recent=1440&units=english&vars=air_temp&output=csv).
 
 ```
 # STATION: WBB
@@ -95,7 +95,7 @@ print('max temp is %s at %s' % (t[idx], dates[idx]) )
 ```
 
 ## JSON
-JSON stands for Javascript Object Notation, and is used extensively over the web as a format returned from API services. JSON is mostly identical in concept as python dictionaries. This makes working with JSON very easy. Suppose I had a response from an API for [WBB air temperatures](http://api.mesowest.net/v2/stations/timeseries?&stid=wbb&token=demotoken&recent=1440&units=english&vars=air_temp&fields=STID). 
+JSON stands for Javascript Object Notation, and is used extensively over the web as a format returned from API services. JSON is mostly identical in concept as python dictionaries. This makes working with JSON very easy. Suppose we had a response from an API for [WBB air temperatures](http://api.mesowest.net/v2/stations/timeseries?&stid=wbb&token=demotoken&recent=1440&units=english&vars=air_temp&fields=STID). 
 
 ```
 {
@@ -134,4 +134,13 @@ From there it's easy traverse the dictionary like this:
 ```
 dates = wbb['STATION'][0]['OBSERVATIONS']['date_time']
 air_temps = wbb['STATION'][0]['OBSERVATIONS']['air_temp_set_1']
+```
+
+Note, the variables are already organized as matching length lists, which can be converted to Numpy arrays. We could then quickly find the minimum temperature in the series:
+```
+import numpy as np
+
+t = np.array(air_temps, dtype=np.float)
+idx = np.argmin(t)
+print('minimum temperature is %s F at %s' % (t[idx], dates[idx] ) )
 ```
