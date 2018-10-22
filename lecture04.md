@@ -1,6 +1,6 @@
 # I/O: Input and output, part I
 
-Working with CSV and JSON in python is a simple task. With CSV, python supports several modules, but most common is simply the "csv" module, available as a built-in.
+Working with CSV and JSON in python is a simple task. With CSV, python supports several modules, but most common is simply the "csv" module, available in most default distributions.
 
 ## CSV
 CSV is comma separated values, but any parseable text file can be treated in similar ways. Take for example an atmospheric sounding originating from Salt Lake City (http://weather.uwyo.edu/upperair/sounding.html). The text list output looks like this:
