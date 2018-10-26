@@ -23,16 +23,19 @@ os.system(cmd)
 
 # open the binary file in numpy
 # discovered from the wgrib2 -grid feature
+# a lot is happening here. The data is 32 bit floats, it's read columnwise,
+# so after reading it as Y,X, we transpose the data, except we've read it backwards, so need to flip
+# the array upside down.
 
 xsize = 151 #number of lons
 ysize = 113 #number of lats
-data = np.fromfile('out.bin', dtype=np.float32).reshape(ysize,xsize).transpose()
+data = np.flipud(np.fromfile('out.bin', dtype=np.float32).reshape(ysize,xsize)).transpose()
 
 #plot it. What does this look like?
 import matplotlib.pyplot as plt
 
 plt.figure(1)
-plt.imshow(data, interpolation='nearest')
-plt.grid(True)
+plt.imshow(data.T, interpolation='nearest')
+#plt.grid(True)
 
 plt.show()
