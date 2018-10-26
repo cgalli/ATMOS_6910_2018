@@ -24,6 +24,9 @@ The NAM is run every 6 hours, as well. The RAP and HRRR are run every hour out t
 Some models create analysis products that are useful for retrospective tasks, such as validating surface observations, or comparing other remote sensed data sets.
 Analysis grids are also used to initialize model runs starting at the moment, given they often contain the best representation of the environment from observations.
 
+A good department example of utilizing the mountain of available NWP models in various presentation by Jim Steenburgh's group at [http://weather.utah.edu/](http://weather.utah.edu/).
+
+
 ## Grib indexes
 All grib files can be indexed which provides a short description of the contained fields or records. This requires a full inspection of each file. The resulting index will often have .idx suffix sitting alonside the grib file in its distribution directory.
 
