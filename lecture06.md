@@ -96,19 +96,20 @@ To target just a single record, a pattern match can be used, or a specific recor
 
 ```
 wgrib2 -d 8 fh.0003_tl.press_gr.us40km
-
+```
 or
 
+```
 wgrib2 -match ":TMP:" fh.0003_tl.press_gr.us40km
-
+```
 or to see the descriptions verbosely
 
+```
 wgrib2 -v -match ":TMP:" fh.0003_tl.press_gr.us40km
 
 9:104507:d=2018102512:TMP Temperature [K]:100 mb:3 hour fcst:
 14:147689:d=2018102512:TMP Temperature [K]:125 mb:3 hour fcst:
 19:193939:d=2018102512:TMP Temperature [K]:150 mb:3 hour fcst:
-
 ```
 
 Targeting specific records is useful, because other commands allow for specific subsetting, or statistical calculations, etc. 
@@ -126,7 +127,8 @@ What about grid information? The model horizontal spacing? The number of rows an
 wgrib2 -domain -match ":TMP:2 m above ground" fh.0003_tl.press_gr.us40km
 
 203:2321981:N=58.365355 S=16.362787 W=-139.856122 E=-57.381070
-
+```
+```
 wgrib2 -grid -match ":TMP:2 m above ground" fh.0003_tl.press_gr.us40km
 
 203:2321981:grid_template=30:winds(grid):
@@ -146,7 +148,9 @@ Now that we understand the domain extents of this grid, we can ask for specific 
 wgrib2 -ij 20 40 -match ":RH:2 m above ground" fh.0003_tl.press_gr.us40km
 
 209:2397892:val=89.2946
+```
 
+```
 #get the closest grid point to a specified latitude and longitude, like Salt Lake City
 
 wgrib2 -lon -111.89 40.76 -match ":RH:2 m above ground" fh.0003_tl.press_gr.us40km
@@ -157,6 +161,15 @@ wgrib2 -lon -111.89 40.76 -match ":RH:2 m above ground" fh.0003_tl.press_gr.us40
 
 Although it's interesting to extract data this way, how do we get it into our programs? How do we automate the processing of gridded forecast data for a project?
 
+There are some useful modules in python that are finally getting mature enough to use without too many compiling headaches.
+- [https://github.com/jswhit/pygrib](https://github.com/jswhit/pygrib)
+
+If all we need is the raw data to work with in our programs, I prefer a more direct approach with binary data. The workflow goes something like this:
+- Download individual record or grib file to disk (alternatively this can be done in memory with the urllib2 libraries and stringIO)
+- Use wgrib2 via a system call in python to extract the record of interest and write to a binary file. This can be done using the -bin and -no_header feature like this: wgrib2 -match ":TMP:2 m" file_name -no_header -bin out_file.bin
+- Read in the saved binary file with numpy, using np.fromfile 
+
+It's pretty simple. Of course, there are some major details that need to be understood or known about the data. How many bytes represent a single value? What's the data type? What's the shape of the grid (because we need to reshape it with numpy after reading)? Luckily, all of this is easily discoverable using the wgrib2 utility.
 
 
 # Reading Assignment
