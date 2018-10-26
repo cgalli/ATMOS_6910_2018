@@ -174,6 +174,7 @@ If all we need is the raw data to work with in our programs, I prefer a more dir
 
 It's pretty simple. Of course, there are some major details that need to be understood or known about the data. How many bytes represent a single value? What's the data type? What's the shape of the grid (because we need to reshape it with numpy after reading)? Luckily, all of this is easily discoverable using the wgrib2 utility.
 
+![RAP 2m](RAP_2m_tmp.png)
 
 # Reading Assignment
 
