@@ -10,7 +10,7 @@ Grib files have these practical defining characteristics:
 - Self describing. The headers are messages in each segment of data.
 - Internal packing and compression for each variable.
 - Sequential byte range positions for each variable.
-- Regularly gridded.
+- Usually regularly gridded (but does support irregular points of data).
 - Well supported and used everywhere.
 
 ## A note on forecast files
