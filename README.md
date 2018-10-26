@@ -38,6 +38,6 @@ October 19, [Lecture 3: Basic programs and arrays](./lecture03.md)
 October 22, [Lecture 4: I/O part I](./lecture04.md)
 - [Supplemental slides](./lecture04.pdf)
 
-October 25, [Lecture 6: I/O part II](./lecture06.md)
+October 26, [Lecture 6: I/O part II](./lecture06.md)
 - [Supplemental slides](./lecture06.pdf)
 - [example06.py](./example06.py)
