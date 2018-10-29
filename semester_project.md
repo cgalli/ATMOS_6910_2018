@@ -42,8 +42,9 @@ In this project, we'll be asking the specific questions below. The complexity of
 Questions
 - For each year of data (2017 and 2018) separately for all three stations, at what datetime did the minimum and maximum air temperatures occur. There will be a total of 12 values found.
 - For the wind gusts contained in the HRRR data set for each hourly analysis file across the June months in 2017 and 2018, at what datetimes was the observed surface gust greater for each station?
-- Create two different scatter plots, one for air temperature and another for wind speed comparing all observaed surface data nearest the top of the hour to the model output data of the same hours for each of the three stations.
-- more???
+- Create two different scatter plots, one for air temperature and another for wind speed comparing all observaed surface data nearest the top of the hour to the model output data of the same hours for each of the three stations. Calculate the correlation coefficient. 
+- Calculate two mean air temperatures for each station for all times (June 2017 and 2018) using both surface station observations and HRRR grid points. There will be 6 values in all.
+- more or less TBD
 
 ### Extra credit / alternative tasks
 You are welcome and encouraged to also approach finding answers to your own questions based on these data sets. You will be allowed to ask two additional questions which you can prgramatically provide answers to, upon approval of your instructor. These additional tasks will count for more points toward your final grade if you have missed and assignment or attendance throughout the semester.
@@ -53,3 +54,6 @@ You are welcome and encouraged to also approach finding answers to your own ques
 - All HRRR analysis files will be the 00 hour from the respective 00 UTC through 23 UTC model runs. 
 - Wind gust data in the surface observations will be sparse, meaning NULL values will be needed when no gust was reported.
 - Extracting the model grid points for the three stations requires the latitude and longitude metadata from each station.
+
+## Due
+Projects must be complete by Dec 5, 2018 where we will be reviewing approaches and techniques in class together. Students will have until Dec 12 to turn in the final code via email or a link to their CHPC home directory where the code resides and runs.
