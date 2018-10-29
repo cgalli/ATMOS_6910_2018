@@ -4,6 +4,8 @@ The final project will consist of analyzing multiple data sets representing the 
 
 The objective of this project is focused on effectively organizing and processing these data sets in order to attempt answering several questions. The questions we're asking are not overly complex, and for the most part not as important as the the actual gathering and processing of the data. Additionally, each data set is available (archived) in different specific formats that atmospheric scientists often use. Becoming comfortable with working on these types of data is fundamental in our field. 
 
+This project is worth 50 points, and comprises one third of your final grade. (1.0/3.0 and not 1/3)
+
 ## Data sets
 ### MesoWest archived time series observations 
 
@@ -47,7 +49,7 @@ Questions
 - more or less TBD
 
 ### Extra credit / alternative tasks
-You are welcome and encouraged to also approach finding answers to your own questions based on these data sets. You will be allowed to ask two additional questions which you can prgramatically provide answers to, upon approval of your instructor. These additional tasks will count for more points toward your final grade if you have missed and assignment or attendance throughout the semester.
+You are welcome and encouraged to also approach finding answers to your own questions based on these data sets. You will be allowed to ask two additional questions which you can prgramatically provide answers to, upon approval of your instructor. These additional tasks will count for more points toward your final grade to make up missed assignment or attendance throughout the semester. Total extra points will not exceed 20.
 
 ### Notes
 - When comparing time series surface observations to forecast data, all data 30 minutes before and 29 minutes after should be associated to the center hour, which allows for comparison of hourly analysis data.
