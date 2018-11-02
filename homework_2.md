@@ -1,8 +1,8 @@
 # Homework Assignment 2
 ### Assigned: Nov 2, 2018
-### Due: No later than 1541608200 seconds since Jan 1, 1970 00:00:00 UCT
+### Due: No later than 1541608200 seconds since Jan 1, 1970 00:00:00 UTC
 ### Deliverable: Python script
-### Delivery: Email single file of code to chris.galli@utah.edu
+### Delivery: Email single file of code to chris.galli@utah.edu with answers in the email.
 
 
 ## First order of business
