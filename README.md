@@ -44,8 +44,8 @@ October 26, [Lecture 6: I/O part II](./lecture06.md)
 - [Supplemental slides](./lecture06.pdf)
 - [example06.py](./example06.py)
 
-October 29, [Final Project Review](./semester_project.md)
+October 29, [Lecture 7: Final Project Review](./semester_project.md)
 
-October 31, [Basic Control Structures](./)
+October 31, [Lecture 8: Basic Control Structures](./)
 
-November 2, [Arrays: part I](./)
+November 2, [Lecture 9: Arrays part I](./lecture09.md)
