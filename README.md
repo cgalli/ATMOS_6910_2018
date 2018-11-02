@@ -49,3 +49,5 @@ October 29, [Lecture 7: Final Project Review](./semester_project.md)
 October 31, [Lecture 8: Basic Control Structures](./)
 
 November 2, [Lecture 9: Arrays part I](./lecture09.md)
+- [Homework assignment 2](./homework_2.md)
+
