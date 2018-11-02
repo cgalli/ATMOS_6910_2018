@@ -55,6 +55,8 @@ temps = data['STATION'][0]['OBSERVATIONS']['air_temp_set_1']
 wind_speed = data['STATION'][0]['OBSERVATIONS']['wind_speed_set_1']
 wind_gust = data['STATION'][0]['OBSERVATIONS']['wind_gust_set_1']
 
+#note: these are python lists, not numpy arrays. The cast to arrays, you can use the np.array() function or np.asarray()
+
 ```
 
 You can organize the data you retrieve from the API however you'd like, but consider organizing it all into a single python dictionary object. The reason is because you can simply save the "state" of the data in your prefered organized way
