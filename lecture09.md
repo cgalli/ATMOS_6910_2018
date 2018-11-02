@@ -272,4 +272,9 @@ nan
 np.nanmean(data_good)
 304.2059241503296
 
+#how does this compare to the raw data set?
+np.mean(data)
+301.29069047619043
+
+
 ```
