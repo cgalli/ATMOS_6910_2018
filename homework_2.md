@@ -69,9 +69,10 @@ surface_obs['KSL'][2017] = {"dates": dates, "temps": temps, "wind_speeds": wind_
 
 # see: https://stackoverflow.com/questions/11218477/how-can-i-use-pickle-to-save-a-dict
 
-#dates are in a text string format known as ISO 8601 and look like this: 2017-06-01T00:00:00Z
-
 ```
+
+Dates are in a text string format known as ISO 8601 and look like this: 2017-06-01T00:00:00Z
+
 
 These dates should be converted to a numerical value that is easy to compare other dates. The use of epoch seconds is something that will always work as a standardized time format. Using seconds allows to easily compare values across hour, day, month, and year boundaries, just to name a few. 
 
