@@ -4,16 +4,17 @@
 ### Deliverable: Python script
 ### Delivery: Email single file of code to chris.galli@utah.edu
 
-Task #0: Figure out when this assignment is due (hint, google 'epoch time converter', or use python's datetime module)
+## First order of business
+Figure out when this assignment is due (hint, google 'epoch time converter', or use python's datetime module)
 
 This assignment requires you to download all of the June 2017 and 2018 data for the three ASOS surface stations noted in our final project from the MesoWest API (Synoptic Data, api.synopticdata.com). The three variables to grab are air_temp, wind_speed and wind_gust. The stations are KSLC, KHOU, and KAUG. Again, the request pattern looks like the below. Don't forget to signup and get your API key. [See the final project outline for more details here.](./semester_project.md). You will need to use your own API token.
 
 This python script must accomplish the following tasks:
 
-- Downloading of all data from the noted API (three stations, two years of June data, three variables).
+- Acquire all data from the noted API (three stations, two years of June data, three variables).
 - Organize the data into a python dictionary or other simple object.
 - Convert the string date_time values into a datetime object or numerical format such as epoch seconds. 
-- Save the data in your own organized way to disk. Python pickles are great at saving the state of python objects.
+- Save the data in your own organized way to disk. Python pickles are great at saving the state of python objects all at once.
 - Find the max wind gust for KHOU across both years of data, and print out the time it occurred.
 
 
