@@ -21,7 +21,7 @@ In the continuum of code styles and techniques, a few stand out, mostly because 
 
 We've already discussed details types of code, such as compiled vs interpreted. Taking python as a means to illustrate coding styles, take a simple task of adding two very large numbers together:
 
-Procedural approach
+**Procedural approach**
 ```
 #!/usr/bin/python
 
@@ -30,7 +30,8 @@ number_2 = 2.34567890e101
 
 total = number_1 + number_2
 ```
-Functional approach
+
+**Functional approach**
 ```
 #!/usr/bin/python
 
@@ -52,15 +53,19 @@ if __name__ == "__main__":
   exit(0)
 ```
 
-Object oriented approach
+**Object oriented approach**
 ```
 #!/usr/bin/python
 
 class NumberCruncher(object):
   '''
   Class object to crunch some really big numbers. 
-  In fact, these numbers are HUGE. Much bigger than most other numbers.
+  In fact, these numbers are HUGE. Much bigger than most other numbers,
+    which is why we have a special class to handle this, plus it's good
+    coding practice to break out segments of code into discrete functions
+    to make it clearer to read and use.
   '''
+  
   self.total = None
   
   def init(self, number_1=None, number_2=None):
