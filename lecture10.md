@@ -1,8 +1,8 @@
 # Functions and code design
 
-**There is no one right way to deisgn software and write code.** And because there is rarely one right way to solve a problem or task, the design of programs take many shapes. The language used in developing programs will often influence the style used.
+**There is no one right way to design software and write code.** And because there is rarely one right way to solve a problem or task, the design of programs take many shapes. The language used in developing programs will often influence the style used.
 
-When we refer to desciptors like "good" and "bad" ways of writing code, what we often mean is how efficient, or simple, or readable is the code.
+When we refer to descriptors like "good" and "bad" ways of writing code, what we often mean is how efficient, or simple, or readable is the code.
 
 There are plenty of books, blogs, evangelists, tweeters, and more who proclaim The proper way to design software. All of them are right, and all of them are wrong.
 
@@ -132,10 +132,10 @@ to learn how to write code ...
 to write code that works and is useful
 
 
-The reason we sift through mountains of data is to find the essence of that data or its relationships to other data. Making sense of it can be confusing. Communicating what that data means in the context of your research can feel daunting.
+The reason we sift through mountains of data is to find the essence of that data or its relationships to other data. Making sense of it can be confusing. Communicating what that data means in the context of your research can feel daunting. This is why we leverage design techniques to help facilitate tackling any given problem.
 
 ## This for that
-The practical answer when approaching design is always somehwere in the middle of the spectrum for any given style or technique. Consider these few overarching concepts: 
+The practical answer when approaching design is always somewhere in the middle of the spectrum for any given style or technique. Consider these few overarching concepts: 
 
 - Many separate functions vs. one long program
 - Separate files for individual functions vs. single file
