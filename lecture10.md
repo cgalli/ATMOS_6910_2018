@@ -121,14 +121,29 @@ if __name__ == "__main__":
 ```
 
 ## A solid philosophy
-You will write code …​
+You will write code ...
 
-to learn how to write code …​
+to learn how to write code ...
 
-to throw away that code …​
+to throw away that code ...
 
-to learn how to write code …​
+to learn how to write code ...
 
-to write code that works and is useful​
+to write code that works and is useful
 
+
+The reason we sift through mountains of data is to find the essence of that data or its relationships to other data. Making sense of it can be confusing. Communicating what that data means in the context of your research can feel daunting.
+
+## This for that
+The practical answer when approaching design is always somehwere in the middle of spectrum:
+
+- Many separate functions vs. one long program
+- Separate files for individual functions vs. single file
+- Reusable code as abstracted functions vs. duplicative code in-line
+- Elegant and compressed structure of execution vs. verbose and explicit
+- Comments and docs imbedded vs. no comments or docs
+
+... and so on. 
+
+The goal is almost always to accomplish a task efficiently and practical without extra "junk" code or structure and organization. 
 
