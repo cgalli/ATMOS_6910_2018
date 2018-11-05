@@ -78,6 +78,20 @@ class NumberCruncher(object):
     else:
       self.total = None
       
+  def is_a_number(self, number_to_check):
+    number_is_good = False
+    
+    try:
+      float(number_to_check)
+      number_is_good = True
+    except:
+      #not a good number
+      pass
+    if number_is_good:  
+      return True
+    else:
+      return False
+      
   def get_total(self):
     return self.total
     
@@ -104,7 +118,17 @@ if __name__ == "__main__":
   print('big number is: %s' % total)
   exit(0)
 
-
 ```
+
+## A solid philosophy
+You will write code …​
+
+to learn how to write code …​
+
+to throw away that code …​
+
+to learn how to write code …​
+
+to write code that works and is useful​
 
 
