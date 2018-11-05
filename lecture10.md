@@ -19,7 +19,7 @@ In the continuum of code styles and techniques, a few stand out, mostly because 
 - object oriented
 - functional
 
-We've already discussed details types of code, such as compiled vs interpreted. Taking python as a means to illustrate coding styles, take a simple task of adding two very large numbers together:
+We've already discussed details regarding types of program languages, such as compiled vs interpreted. Software design is mostly concerned with applying **how** a program is constructed, and not the **what's** or **why's**. Let's take look at a few illustrative coding styles. Suppose we are tasked to write a program that must add two very large numbers together. Here's how each one might look.
 
 **Procedural approach**
 ```
