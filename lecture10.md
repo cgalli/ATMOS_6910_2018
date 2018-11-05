@@ -135,7 +135,7 @@ to write code that works and is useful
 The reason we sift through mountains of data is to find the essence of that data or its relationships to other data. Making sense of it can be confusing. Communicating what that data means in the context of your research can feel daunting.
 
 ## This for that
-The practical answer when approaching design is always somehwere in the middle of spectrum:
+The practical answer when approaching design is always somehwere in the middle of the spectrum for any given style or technique. Consider these few overarching concepts: 
 
 - Many separate functions vs. one long program
 - Separate files for individual functions vs. single file
@@ -145,5 +145,8 @@ The practical answer when approaching design is always somehwere in the middle o
 
 ... and so on. 
 
-The goal is almost always to accomplish a task efficiently and practical without extra "junk" code or structure and organization. 
+The goal is almost always to accomplish a task efficiently and practical without extra "junk" code or structure and organization.
+
+In atmospheric science, more specifically thermodynamics, we are often interested in finding points of equilibrium. Approaching the effective design of software to accomplish any given task is also an exercise of finding a balanced point.
+
 
