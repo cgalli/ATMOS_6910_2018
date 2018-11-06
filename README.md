@@ -51,3 +51,7 @@ October 31, [Lecture 8: Basic Control Structures](./)
 November 2, [Lecture 9: Arrays part I](./lecture09.md)
 - [Homework assignment 2](./homework_2.md)
 
+November 5, [Lecture 10: Code design and more arrays])(./lecture10.md)
+
+November 7, Project reviews. Approach discussions. Questions.
+
