@@ -1,9 +1,9 @@
 # Arrays II
 
 ## Evaluating results of results
-Taking results from an existing set of results by index position is a common pattern in data analysis. Take for example a case of determining rates of change for a variable. We might have a case to find the rate of change for a subset of the original data set. While it is possible to simply create copies of the subsetted data into new arrays, it is often not wise to do so. And in some cases, there may not be enough resouce on the server. 
+Taking results from an existing set of results by index position is a common pattern in data analysis. Take for example a case of determining rates of change for a variable. We might have a case to find the rate of change for a subset of the original data set. While it is possible to simply create copies of the subsetted data into new arrays, it is often not wise to do so. And in some cases, there may not be enough resource on the server. 
 
-Let's suppose we have a need to understand how frequently there are moments of when the air temperature is greater than 28 C in Salt Lake City during June. A certain crop must be planted only when there are at least 3 hour periods of continuous temperatures above that 28 C threshold, or so some hypothesis suggests. Taking the ait temperatures from the last homework assignemnt, how can we tease this out?
+Let's suppose we have a need to understand how frequently there are moments of when the air temperature is greater than 28 C in Salt Lake City during June. A certain crop must be planted only when there are at least 3 hour periods of continuous temperatures above that 28 C threshold, or so some hypothesis suggests. Taking the air temperatures from the last homework assignment, how can we tease this out?
 
 ```
 import urllib2
