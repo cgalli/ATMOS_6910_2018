@@ -56,4 +56,4 @@ November 5, [Lecture 10: Code design and more arrays](./lecture10.md)
 November 7, Project reviews. Approach discussions. Questions.
 - [Homework assignment 3](./homework_3.md)
 
-November 9, [Lecture 11: Arrays part II](./lecture10.md)
+November 9, [Lecture 11: Arrays part II](./lecture11.md)
