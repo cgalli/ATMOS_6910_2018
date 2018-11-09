@@ -48,6 +48,8 @@ r = np.where(~np.isnan(temps))
 temps = temps[r]
 epochs = epochs[r]
 
+#try this again
+r = np.where(temps > 28.0)
 r[0].size / temps.size
 #0
 #oops, I forgot these are integers 
