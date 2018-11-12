@@ -35,7 +35,7 @@ Resources:
 - [HRRR archive main page](http://hrrr.chpc.utah.edu/)
 - [HRRR download page](http://home.chpc.utah.edu/~u0553130/Brian_Blaylock/cgi-bin/hrrr_download.cgi)
 
-### MODIS or LANDSAT derived surface temperature
+### MODIS derived surface temperature
 Using the files from Homework 4, match the morning and afternoon land surface temp modis observations with the closest surface air temperature observation for each station (KSLC, KHOU, KAUG).  Plot the lst/sfc obs pairs on a scatter plot, using only the lst/sfc pairs that are within 1 hour of each other.  Plot morning and evening data for each station on a separate plot.  This will be 6 scatter plots. Use Figure 5 of http://dx.doi.org/10.1016/j.rse.2014.06.001  for a reference.
 
 ### GOES 16 Satellite 
