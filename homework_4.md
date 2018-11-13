@@ -24,5 +24,6 @@ These are small subsets of the MYD11_L2 modis product around each station.  Copy
 <H2>Notes</H2>
 <ul>
 <li>This page describes the MYD11_L2 product and links to documentation  <a href="https://lpdaac.usgs.gov/dataset_discovery/modis/modis_products_table/myd11_l2_v006">MYD11_L2 V006</a></li>
+  <LI> from netCDF4 import Dataset </LI>
 </UL>  
 
