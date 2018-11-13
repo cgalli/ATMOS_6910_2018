@@ -54,6 +54,7 @@ Questions
 - Create two different scatter plots, one for air temperature and another for wind speed comparing all observed surface data nearest the top of the hour to the model output data of the same hours for each of the three stations. Calculate the correlation coefficient. 
 - Calculate two mean air temperatures for each station for all times (June 2017 and 2018) using both surface station observations and HRRR grid points. There will be 6 values in all.
 - For the maximum temperature for each station using the grid point closest in the HRRR, for all times in June 2018, download the closest matching CONUS GEOS-16 ABI Level 1b Radiances product from the CHPC Pando archive and plot the scene. Mark the location of the station in the plot. The plot should have country and state outlines, plotted as a true color image (R, G, B) in the projection of your choice.
+- How well does the modis retrieved land surface temperature predict the measured surface air temperature?
 
 ### Extra credit / alternative tasks
 You are welcome and encouraged to also approach finding answers to your own questions based on these data sets. You will be allowed to ask two additional questions which you can programmatically provide answers to, upon approval of your instructor. These additional tasks will count for more points toward your final grade to make up missed assignment or attendance throughout the semester. Total extra points will not exceed 20.
