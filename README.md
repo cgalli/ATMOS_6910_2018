@@ -57,3 +57,5 @@ November 7, Project reviews. Approach discussions. Questions.
 - [Homework assignment 3](./homework_3.md)
 
 November 9, [Lecture 11: Arrays part II](./lecture11.md)
+
+November 12, [Lecture 12: Optimization](./lecture12.md)
