@@ -59,3 +59,8 @@ November 7, Project reviews. Approach discussions. Questions.
 November 9, [Lecture 11: Arrays part II](./lecture11.md)
 
 November 12, [Lecture 12: Optimization](./lecture12.md)
+
+November 14, Lecture 13: Numerical Applications
+
+November 16, [Lecture 14: Intro to debugging](./lecture14.md)
+- [Debug exercise](./example14.py)
