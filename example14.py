@@ -26,5 +26,6 @@ while parcel_temp > temps[i]:
 if i > 0:
     print 'height of equilibrium is', heights[i]
     print 'which is %s AGL.' % (heights[0] - heights[i])
+    print 'pressure level', pressures[i]
 else:
     print 'there is a surface inversion. move on...'
