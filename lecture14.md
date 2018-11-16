@@ -163,4 +163,5 @@ print i, 'iterations'
 ```
  It's tempting to just wrap a try: around something that feels problematic and move onto finishing the code! 
  
+ Let's debug a simple script [here](./example14.py).
  
