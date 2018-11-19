@@ -17,9 +17,9 @@ These are small subsets of the MYD11_L2 modis product around each station.  Copy
 <li>There will be a day and a night obervation for each 24 hours.  Pull out the closest pixel to KSLC for each of the two observations for each day</li>
 <li>Find the closest in time surface air temperature measurement to the modis land surface temperature. These values are the values from homework assignment 2.</li>
 <li>Plot the surface air temperature/lst pairs on a scatter plot.  An example is Figure 5 in this paper  http://dx.doi.org/10.1016/j.rse.2014.06.001  
-  <LI>Plot all the obs together.</LI>
-  <LI>Plot the morning and afternoon obs separately.</LI>  
-  <LI>Plot separately the morning and afternoon observations that are within 1 hour of a station observation.   </li>
+  <LI>Plot all the LST obs together in a histogram.</LI>
+  <LI>Plot the morning and afternoon LST obs separately in histograms.</LI>  
+  <LI>Plot separately the morning and afternoon LST observations that are within 1 hour of a station observation (in histograms).   </li>
 </ul>
 <H2>Notes</H2>
 <ul>
