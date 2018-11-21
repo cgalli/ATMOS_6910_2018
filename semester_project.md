@@ -57,12 +57,12 @@ Each question asked represents your ability to have successfully acquired and or
 
 Questions
 - For each year of data (2017 and 2018) separately for all three stations, at what datetime did the minimum and maximum air temperatures occur. There will be a total of 12 values found.
-- For the wind gusts contained in the HRRR data set for each hourly analysis file across the June months in 2017 and 2018, at what datetimes are the observed surface gust greater for each station?
-- Create two different scatter plots, one for air temperature and another for wind speed comparing all observed surface data nearest the top of the hour to the model output data of the same hours for each of the three stations. Calculate the correlation coefficient. 
-- Calculate two mean air temperatures for each station for all times (June 2017 and 2018) using both surface station observations and HRRR grid points. There will be 6 values in all.
+- For the wind gusts contained in the HRRR data set for each hourly analysis file across the June months in 2017 and 2018, at what datetimes are the observed surface gust greater for each station? (You must find the closest grid point in the HRRR data to the surface (ASOS) stations' locations.)
+- Using the colocated ASOS station and HRRR data, create two different scatter plots, one for air temperature and another for wind speed comparing all observed surface data nearest the top of the hour to the model output data of the same hours for each of the three stations. Calculate the correlation coefficient and note it on the plots. 
+- Calculate two mean air temperatures for each ASOS station for all times (June 2017 and 2018) combining ASOS station observations and closely matching HRRR grid points in time and space. There will be 6 values in all.
 - For the maximum temperature for each station using the grid point closest in the HRRR, for all times in June 2018, download the closest matching CONUS GEOS-16 ABI Level 1b Radiances product from the CHPC Pando archive and plot the scene. Mark the location of the station in the plot. The plot should have country and state outlines, plotted as a true color image (R, G, B) in the projection of your choice.
-- How well does the modis retrieved land surface temperature predict the measured surface air temperature?
-- Using the files from Homework 4, match the morning and afternoon land surface temperature MODIS observations with the closest surface air temperature observation for each station (KSLC, KHOU, KAUG).  Plot the lst/sfc obs pairs on a scatter plot, using only the lst/sfc pairs that are within 1 hour of each other.  Plot morning and evening data for each station on a separate plot.  This will be 6 scatter plots. Use Figure 5 of http://dx.doi.org/10.1016/j.rse.2014.06.001  for a reference.
+- Using the files from Homework 4, match the morning and afternoon land surface temperature MODIS observations with the closest surface ASOS air temperature observation for each station (KSLC, KHOU, KAUG).  Plot the lst/sfc obs pairs on a scatter plot, using only the lst/sfc pairs that are within 1 hour of each other.  Plot morning and evening data for each station on a separate plot.  This will be 6 scatter plots. Use Figure 5 of http://dx.doi.org/10.1016/j.rse.2014.06.001  for a reference.
+- How well does the MODIS retrieved land surface temperature (LST) validate the measured surface air temperature?
 
 
 ### Extra credit / alternative tasks
